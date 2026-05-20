@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Yasir Ali — Data Analyst Portfolio</title>
+    <meta name="description" content="Portfolio of Syed Yasir Ali, an entry-level Data Analyst skilled in SQL, Power BI, Excel and Python. Focused on turning raw data into decisions.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                SYA<span>.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#work">Work</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Theme">
+                    <!-- Sun Icon -->
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+                    <!-- Moon Icon -->
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+                </button>
+                <a href="resume.pdf" download class="btn-secondary" style="padding: 10px 20px; font-size: 13px; border-radius: 100px; display: inline-flex; align-items: center; gap: 6px;" id="download-resume-header">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Resume
+                </a>
+                <a href="mailto:syedyaserali45@gmail.com" class="hire-btn">
+                    Hire Me
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"/></svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <!-- HERO SECTION BENTO GRID -->
+        <div class="bento-grid">
+            
+            <!-- Tagline / Hero Info (Span 2 Columns) -->
+            <div class="bento-card hero-main-card span-2">
+                <div class="hero-tag">
+                    <span class="pulse-dot"></span>
+                    Open to roles
+                </div>
+                <div>
+                    <h1 class="hero-title">Turning raw data<br>into <span>decisions</span>.</h1>
+                    <p class="hero-subtitle">Entry-level Data Analyst with a Computer Science background and hands-on training in SQL, Excel, Power BI, and Python — focused on data cleaning, dashboard creation, and insights generation.</p>
+                </div>
+                <div class="hero-actions">
+                    <a href="#work" class="btn-primary">View projects</a>
+                    <a href="resume.pdf" download class="btn-secondary" id="download-resume-hero">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                        Resume PDF
+                    </a>
+                    <a href="https://www.linkedin.com/in/mr-syedyasirali" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+                        LinkedIn
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"/></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Stats Card (1 Column) -->
+            <div class="bento-card stats-card">
+                <div class="stats-number">4</div>
+                <div class="stats-label">Analytics projects across sales, HR, customer data & NLP</div>
+            </div>
+
+            <!-- Profile Snapshot Card (Span 2 Columns - Symmetrical Grid) -->
+            <div class="bento-card snapshot-card span-2">
+                <h3 class="location-title" style="color: var(--color-gold); font-weight: 700; margin-bottom: 16px;">Profile Snapshot</h3>
+                <ul class="snapshot-list" style="list-style: none; display: flex; flex-direction: column; gap: 14px;">
+                    <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 14.5px; line-height: 1.5; color: var(--text-dark);">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 2px;"><polyline points="20 6 9 17 4 12"/></svg>
+                        Computer Science graduate focused on data analytics, business reporting, and insight generation.
+                    </li>
+                    <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 14.5px; line-height: 1.5; color: var(--text-dark);">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 2px;"><polyline points="20 6 9 17 4 12"/></svg>
+                        Completed a 4-month intensive hands-on Data Analytics training at Tech Mahindra Foundation.
+                    </li>
+                    <li style="display: flex; gap: 10px; align-items: flex-start; font-size: 14.5px; line-height: 1.5; color: var(--text-dark);">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--color-gold)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0; margin-top: 2px;"><polyline points="20 6 9 17 4 12"/></svg>
+                        Hands-on project experience covering sales metrics, database clean pipelines, recruitment funnels, and text classification models.
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Location Card (1 Column) -->
+            <div class="bento-card location-card">
+                <div>
+                    <div class="location-title">Based in</div>
+                    <div class="location-name">Hyderabad</div>
+                    <div class="location-sub">
+                        <span class="glow-dot"></span>
+                        India · Remote-friendly
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- SKILLS & EXPERIENCE SECTION -->
+        <div class="section-label">Core Skills & Experience</div>
+        
+        <div class="bento-grid">
+            
+            <!-- Core Tools Card (1 Column) -->
+            <div class="bento-card tools-card">
+                <h3 class="tools-title">Core tools</h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper">
+                            <!-- SQL Icon (Cylinder) -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M12 2C6.48 2 2 4.02 2 6.5s4.48 4.5 10 4.5 10-2.02 10-4.5S17.52 2 12 2z"/><path d="M2 6.5v5c0 2.48 4.48 4.5 10 4.5s10-2.02 10-4.5v-5"/><path d="M2 11.5v5c0 2.48 4.48 4.5 10 4.5s10-2.02 10-4.5v-5"/></svg>
+                        </div>
+                        <span class="tool-name">SQL Server</span>
+                    </div>
+                    
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper">
+                            <!-- Power BI Icon (Rising Bars) -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><rect x="3" y="14" width="4" height="6" rx="1"/><rect x="10" y="8" width="4" height="12" rx="1"/><rect x="17" y="3" width="4" height="17" rx="1"/></svg>
+                        </div>
+                        <span class="tool-name">Power BI</span>
+                    </div>
+                    
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper">
+                            <!-- Excel Icon (Table Grid) -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="3" x2="9" y2="21"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="3" y1="15" x2="21" y2="15"/></svg>
+                        </div>
+                        <span class="tool-name">Excel</span>
+                    </div>
+                    
+                    <div class="tool-item">
+                        <div class="tool-icon-wrapper">
+                            <!-- Python Icon -->
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22"><path d="M12 2C8.69 2 6 4.69 6 8v2h12V8c0-3.31-2.69-6-6-6zM6 14v2c0 3.31 2.69 6 6 6s6-2.69 6-6v-2H6z"/><circle cx="9" cy="5" r="1" fill="currentColor"/><circle cx="15" cy="19" r="1" fill="currentColor"/></svg>
+                        </div>
+                        <span class="tool-name">Python</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recent Experience Card (Span 2 Columns) -->
+            <div class="bento-card experience-card span-2">
+                <h3 class="experience-title">Recent experience</h3>
+                <div class="timeline">
+                    <!-- Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="experience-item-header">
+                            <div>
+                                <h4 class="role-title">Data Analytics Trainee</h4>
+                                <div class="company-name">Tech Mahindra Foundation</div>
+                            </div>
+                            <span class="experience-date">Dec 2023 – Mar 2024</span>
+                        </div>
+                        <p class="experience-desc">Hands-on training in Excel, SQL, Power BI — built interactive dashboards and ran complex SQL queries & aggregations to turn messy datasets into clean, visual reports.</p>
+                    </div>
+                    
+                    <div class="divider"></div>
+                    
+                    <!-- Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="experience-item-header">
+                            <div>
+                                <h4 class="role-title">Human Resources Intern</h4>
+                                <div class="company-name">Aashman Foundation <span style="color: var(--text-muted); font-weight: normal; font-size: 13.5px;">· Remote</span></div>
+                            </div>
+                            <span class="experience-date">Feb 2023 – Mar 2023</span>
+                        </div>
+                        <p class="experience-desc">Screened candidate applications, coordinated onboarding interviews, and developed structured recruitment tracking spreadsheets & performance reports.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Analytics Skills Card (Span 2 Columns - New Resume Row) -->
+            <div class="bento-card analytics-skills-card span-2">
+                <h3 class="tools-title" style="margin-bottom: 20px;">Analytics Skills & Methodologies</h3>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <span style="font-size: 14.5px; font-weight: 600; color: var(--color-gold);">Data Cleaning & Deduplication</span>
+                        <p style="font-size: 13px; line-height: 1.4;">standardizing messy datasets, deduping rows, handling null values.</p>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <span style="font-size: 14.5px; font-weight: 600; color: var(--color-gold);">SQL Querying & Relations</span>
+                        <p style="font-size: 13px; line-height: 1.4;">using JOIN, GROUP BY, window functions, and aggregation algorithms.</p>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <span style="font-size: 14.5px; font-weight: 600; color: var(--color-gold);">Dashboard Design & UX</span>
+                        <p style="font-size: 13px; line-height: 1.4;">structuring visual hierarchies, charts, and interactive filtering.</p>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <span style="font-size: 14.5px; font-weight: 600; color: var(--color-gold);">Excel Pivot Tables & Formulas</span>
+                        <p style="font-size: 13px; line-height: 1.4;">summarizing raw records, constructing charts, and VLOOKUP arrays.</p>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <span style="font-size: 14.5px; font-weight: 600; color: var(--color-gold);">Data Visualization & Reporting</span>
+                        <p style="font-size: 13px; line-height: 1.4;">converting complex datasets into readable reports for business actions.</p>
+                    </div>
+                    <div style="display: flex; flex-direction: column; gap: 4px;">
+                        <span style="font-size: 14.5px; font-weight: 600; color: var(--color-gold);">Basic Business Statistics</span>
+                        <p style="font-size: 13px; line-height: 1.4;">evaluating conversion rates, averages, standard deviations, and percentages.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Capabilities Card (1 Column - New Resume Row) -->
+            <div class="bento-card soft-skills-card">
+                <h3 class="tools-title" style="margin-bottom: 20px;">Capabilities</h3>
+                <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 14px; font-weight: 600; color: var(--color-pine);">
+                    <li style="display: flex; align-items: center; gap: 8px;">
+                        <span style="width: 6px; height: 6px; background-color: var(--color-gold); border-radius: 50%;"></span>
+                        Business Communication
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 8px;">
+                        <span style="width: 6px; height: 6px; background-color: var(--color-gold); border-radius: 50%;"></span>
+                        Candidate Screening
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 8px;">
+                        <span style="width: 6px; height: 6px; background-color: var(--color-gold); border-radius: 50%;"></span>
+                        Interview Coordination
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 8px;">
+                        <span style="width: 6px; height: 6px; background-color: var(--color-gold); border-radius: 50%;"></span>
+                        Data Cleaning Pipelines
+                    </li>
+                    <li style="display: flex; align-items: center; gap: 8px;">
+                        <span style="width: 6px; height: 6px; background-color: var(--color-gold); border-radius: 50%;"></span>
+                        Problem Solving
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <!-- SELECTED PROJECTS SECTION -->
+        <div class="section-label" id="work">Selected Work</div>
+        <div class="section-intro-text">
+            <div>
+                <h2>Projects</h2>
+                <p style="text-align: left;">Training and independent projects covering dashboards, SQL analysis and machine learning.</p>
+            </div>
+            <!-- Interactive Category Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="power-bi">Power BI</button>
+                <button class="filter-btn" data-filter="sql">SQL Server</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+            </div>
+        </div>
+
+        <div class="bento-grid">
+            
+            <!-- Project 1: Sales Performance Dashboard (Span 2, Dark) -->
+            <div class="bento-card project-card dark span-2" data-category="power-bi" id="proj-sales">
+                <!-- Abstract Bar Chart Vector Decoration -->
+                <svg class="card-chart-bg" width="160" height="160" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                    <line x1="20" y1="80" x2="80" y2="80"/>
+                    <line x1="20" y1="80" x2="20" y2="20"/>
+                    <rect x="30" y="50" width="10" height="30" rx="2" fill="currentColor" fill-opacity="0.1"/>
+                    <rect x="45" y="35" width="10" height="45" rx="2" fill="currentColor" fill-opacity="0.1"/>
+                    <rect x="60" y="20" width="10" height="60" rx="2" fill="currentColor" fill-opacity="0.1"/>
+                </svg>
+                <div class="project-top">
+                    <div class="project-tags">POWER BI · EXCEL</div>
+                    <div class="project-pill">12mo · 6 regions</div>
+                </div>
+                <div>
+                    <h3 class="project-title">Sales Performance Dashboard</h3>
+                    <p class="project-desc">Interactive dashboard analyzing 12 months of sales across 4 product categories and 6 regions. Surfaced the top region driving 30–35% of revenue.</p>
+                </div>
+                <div class="project-bottom">
+                    <span></span>
+                    <button class="project-arrow" aria-label="View Project Details">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 2: Customer Data Cleaning (1 Column, Light) -->
+            <div class="bento-card project-card" data-category="sql" id="proj-customer">
+                <!-- Abstract Database Grid Decoration -->
+                <svg class="card-chart-bg" width="140" height="140" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                    <rect x="25" y="20" width="50" height="18" rx="4" fill="currentColor" fill-opacity="0.05"/>
+                    <rect x="25" y="44" width="50" height="18" rx="4" fill="currentColor" fill-opacity="0.05"/>
+                    <rect x="25" y="68" width="50" height="18" rx="4" fill="currentColor" fill-opacity="0.05"/>
+                    <circle cx="35" cy="29" r="2" fill="currentColor"/>
+                    <circle cx="35" cy="53" r="2" fill="currentColor"/>
+                    <circle cx="35" cy="77" r="2" fill="currentColor"/>
+                </svg>
+                <div class="project-top">
+                    <div class="project-tags">SQL SERVER · EXCEL</div>
+                    <div class="project-pill">~5,000 rows</div>
+                </div>
+                <div>
+                    <h3 class="project-title">Customer Data Cleaning & Analysis</h3>
+                    <p class="project-desc">Cleaned customer datasets — deduped, handled nulls, and standardized fields. aggregations via JOIN/COUNT revealed order-value patterns.</p>
+                </div>
+                <div class="project-bottom">
+                    <span></span>
+                    <button class="project-arrow" aria-label="View Project Details">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 3: HR Recruitment Analytics (1 Column, Light) -->
+            <div class="bento-card project-card" data-category="power-bi" id="proj-hr">
+                <!-- Abstract Funnel Chart Decoration -->
+                <svg class="card-chart-bg" width="140" height="140" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                    <path d="M20 25 L80 25 L65 55 L35 55 Z" fill="currentColor" fill-opacity="0.05"/>
+                    <path d="M35 55 L65 55 L58 75 L42 75 Z" fill="currentColor" fill-opacity="0.08"/>
+                    <line x1="50" y1="75" x2="50" y2="85"/>
+                </svg>
+                <div class="project-top">
+                    <div class="project-tags">POWER BI · EXCEL</div>
+                    <div class="project-pill">6 stages</div>
+                </div>
+                <div>
+                    <h3 class="project-title">HR Recruitment Analytics</h3>
+                    <p class="project-desc">Pipeline dashboard across 6 hiring stages. Source-wise conversion analysis showed one channel drove over 50% of successful hires.</p>
+                </div>
+                <div class="project-bottom">
+                    <span></span>
+                    <button class="project-arrow" aria-label="View Project Details">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"/></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 4: Toxic Comment Classification (Span 2, Dark) -->
+            <div class="bento-card project-card dark span-2" data-category="python" id="proj-toxic">
+                <!-- Abstract Line Wave decoration -->
+                <svg class="card-chart-bg" width="160" height="160" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                    <path d="M15 80 Q 30 20, 45 60 T 75 30 T 90 70" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="32" cy="30" r="3" fill="var(--color-gold)"/>
+                    <circle cx="56" cy="62" r="3" fill="var(--color-gold)"/>
+                    <circle cx="73" cy="32" r="3" fill="var(--color-gold)"/>
+                </svg>
+                <div class="project-top">
+                    <div class="project-tags">PYTHON · NLP · ML</div>
+                    <div class="project-pill">10,000 rows</div>
+                </div>
+                <div>
+                    <h3 class="project-title">Toxic Comment Classification</h3>
+                    <p class="project-desc">Text classifier on 10,000 labeled comments using TF-IDF + Logistic Regression. Achieved ~85% accuracy, evaluated with precision, recall, and F1.</p>
+                </div>
+                <div class="project-bottom">
+                    <span></span>
+                    <button class="project-arrow" aria-label="View Project Details">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"/></svg>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ABOUT & BIOGRAPHY SECTION -->
+        <div class="section-label" id="about">Who I Am</div>
+        
+        <div class="bento-grid">
+            
+            <!-- Long Bio Card (Span 2 Columns) -->
+            <div class="bento-card about-bio-card span-2">
+                <div>
+                    <h3 class="location-title" style="margin-bottom: 12px; font-weight: 700; color: var(--color-gold);">About Me</h3>
+                    <h2>Computer Science graduate, focused on analytics & reporting.</h2>
+                </div>
+                <p style="margin-top: 16px;">I enjoy the part of analytics where messy spreadsheets become clean stories — pivot tables that actually answer a question, SQL queries that surface what matters, dashboards a non-technical stakeholder can easily understand. I'm looking for an entry-level Data Analyst role where I can keep learning while making a real impact.</p>
+            </div>
+
+            <!-- Education Card (1 Column) -->
+            <div class="bento-card education-card">
+                <h3 class="education-title">Education</h3>
+                <div class="education-list">
+                    <div class="education-item">
+                        <div class="edu-degree">B.Tech, Computer Science</div>
+                        <div class="edu-school">Shadan College of Engineering & Tech</div>
+                        <div class="edu-score">Score: 60%</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="edu-degree">Intermediate — MPC</div>
+                        <div class="edu-school">Iqbalia Junior College</div>
+                        <div class="edu-score">Score: 581 / 600</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="edu-degree">Class X — CBSE</div>
+                        <div class="edu-school">Intl. Indian School Jeddah</div>
+                        <div class="edu-score">CGPA: 6.6</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications Card (Span 2 Columns) -->
+            <div class="bento-card certs-card span-2">
+                <h3 class="certs-title">Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-item">
+                        <svg class="cert-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 11 2 2 4-4"/></svg>
+                        SQL (Basic) — HackerRank
+                    </div>
+                    <div class="cert-item">
+                        <svg class="cert-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 11 2 2 4-4"/></svg>
+                        Excel Skills for Business — Macquarie Univ.
+                    </div>
+                    <div class="cert-item">
+                        <svg class="cert-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 11 2 2 4-4"/></svg>
+                        ITIL 4 Foundation — Logical Operations
+                    </div>
+                    <div class="cert-item">
+                        <svg class="cert-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 11 2 2 4-4"/></svg>
+                        CompTIA A+ Core 1 — Packt
+                    </div>
+                    <div class="cert-item">
+                        <svg class="cert-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><path d="m9 11 2 2 4-4"/></svg>
+                        Cybersecurity Analyst Sim — TCS
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages Card (1 Column) -->
+            <div class="bento-card languages-card">
+                <h3 class="languages-title">Languages</h3>
+                <div class="lang-list">
+                    <div class="lang-item">
+                        <span class="lang-name">English</span>
+                        <span class="lang-level">Professional</span>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">Hindi</span>
+                        <span class="lang-level">Native</span>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">Urdu</span>
+                        <span class="lang-level">Native</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- CONTACT / GET IN TOUCH FOOTER BENTO -->
+        <div class="section-label" id="contact">Let's Talk</div>
+        
+        <div class="bento-grid">
+            <div class="bento-card contact-cta-card dark span-3">
+                <h2 class="contact-headline">Got a dataset that<br>needs a <span>story?</span></h2>
+                <div class="contact-methods">
+                    <a href="mailto:syedyaserali45@gmail.com" class="contact-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                        syedyaserali45@gmail.com
+                    </a>
+                    
+                    <a href="tel:+919949212099" class="contact-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        +91 99492 12099
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/mr-syedyasirali" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        linkedin.com/in/mr-syedyasirali
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER bottom copyright -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-text">
+                &copy; <span id="year">2026</span> Syed Yasir Ali. All rights reserved.
+            </div>
+            <div class="footer-meta">
+                Built with care · Hyderabad, India
+            </div>
+        </div>
+    </footer>
+
+    <!-- PROJECT DETAILS SLIDE-UP MODAL -->
+    <div class="modal-overlay" id="modal-overlay"></div>
+    <div class="project-modal" id="project-modal">
+        <button class="modal-close-btn" id="modal-close" aria-label="Close details">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <div class="modal-header">
+            <div class="modal-tags" id="modal-tags">TAGS</div>
+            <h3 class="modal-title" id="modal-title">Project Title</h3>
+        </div>
+        <div class="modal-body">
+            <p id="modal-description">Detailed description goes here...</p>
+            
+            <div class="modal-metrics">
+                <div class="metric-box">
+                    <span class="metric-val" id="metric-1-val">Value 1</span>
+                    <span class="metric-lbl" id="metric-1-lbl">Label 1</span>
+                </div>
+                <div class="metric-box">
+                    <span class="metric-val" id="metric-2-val">Value 2</span>
+                    <span class="metric-lbl" id="metric-2-lbl">Label 2</span>
+                </div>
+            </div>
+        </div>
+        <div class="modal-actions">
+            <a href="https://github.com/mr-syedyasirali" target="_blank" rel="noopener noreferrer" class="btn-primary" id="modal-btn-live">View Project Source</a>
+            <a href="https://github.com/mr-syedyasirali" target="_blank" rel="noopener noreferrer" class="btn-secondary" id="modal-btn-code">View GitHub Code</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
